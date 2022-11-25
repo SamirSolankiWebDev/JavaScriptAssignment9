@@ -1,0 +1,69 @@
+html{
+    background-color: antiquewhite;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.container {
+    width: 80vw;
+    margin: 5vh auto;
+}
+
+.searchMatched{
+    color: White;
+    background-color: darkgreen;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: rgb(94, 54, 2);
+}
+
+main table tr:hover{
+    background-color: White;
+}
+main table tr.searchMatched:hover{
+    background-color: rgb(17, 138, 17);
+}
+
+#search {
+    margin: 1rem 1rem 1rem auto;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1rem;
+    padding-left: 100px;
+}
+
+.button {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    color: white;
+    background-color: rgb(8, 28, 179);
+    padding-left: 100px;
+}
